@@ -18,7 +18,7 @@ It supports:
 ---
 ## 📁 Installation
 ## 1. Clone the repository:
-      git clone https://github.com/yourusername/yt-dlp-script.git
+      git clone https://github.com/rootpathd/yt-dlp-script.git
       cd yt-dlp-script
       
 ## 2. Move the script to your personal scripts folder:
