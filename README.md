@@ -47,12 +47,12 @@ Then follow the prompts:
 
 ## 📄 Example of a file with multiple URLs
       Create a text file like this:
-            txt
-            https://www.youtube.com/watch?v=abc123
-            https://www.youtube.com/watch?v=def456
-            Then run:
-            alias_name
-            And choose the file option when prompted.
+      txt
+      https://www.youtube.com/watch?v=abc123
+      https://www.youtube.com/watch?v=def456
+      Then run:
+      alias_name
+      And choose the file option when prompted.
 
 ## 🔧 Customization
 You can edit the script to change default directories (~/Music, ~/Videos) or add other yt-dlp options if needed.
