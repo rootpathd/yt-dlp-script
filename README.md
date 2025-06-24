@@ -27,12 +27,12 @@ It supports:
    chmod +x ~/scripts/script_yt-dlp_with_options.sh
    
 ## 3. (Optional) Add a permanent alias for easier use:
-   ## Edit your ~/.zshrc
-   vim ~/.zshrc
-   ## Add this line at the bottom:
-   alias alias_name="$HOME/scripts/script_yt-dlp_with_options.sh"
-   ## Apply the changes:
-   source ~/.zshrc
+      ## Edit your ~/.zshrc
+      vim ~/.zshrc
+      ## Add this line at the bottom:
+      alias alias_name="$HOME/scripts/script_yt-dlp_with_options.sh"
+      ## Apply the changes:
+      source ~/.zshrc
 
 ## ▶️ Usage
 Run the script with:
