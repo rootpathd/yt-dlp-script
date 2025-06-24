@@ -16,12 +16,43 @@ It supports:
 - Easy configuration with interactive prompts.
 
 ---
+## 📁 Installation
+## 1. Clone the repository:
+   git clone https://github.com/yourusername/yt-dlp-script.git
+   cd yt-dlp-script
+   
+## 2. Move the script to your personal scripts folder:
+   mkdir -p ~/scripts
+   cp script_yt-dlp_with_options.sh ~/scripts/
+   chmod +x ~/scripts/script_yt-dlp_with_options.sh
+   
+## 3. (Optional) Add a permanent alias for easier use:
+   ## Edit your ~/.zshrc
+   vim ~/.zshrc
+   ## Add this line at the bottom:
+   alias alias_name="$HOME/scripts/script_yt-dlp_with_options.sh"
+   ## Apply the changes:
+   source ~/.zshrc
 
-## Usage
+## ▶️ Usage
+Run the script with:
+alias_name
+Then follow the prompts:
+1. Choose between downloading a single video or using a file with multiple URLs.
+2. Choose whether to download audio or full video.
+3. If audio, choose your preferred format (mp3, flac, m4a, opus).
+  - 🎶 Audio files will be saved to ~/Music
+  - 🎥 Videos will be saved to ~/Videos
+  - ✅ The script avoids duplicate downloads using --download-archive.
 
-1. Clone or download this repository.  
-2. Make sure `yt-dlp` and `ffmpeg` are installed on your system.  
-3. Make the script executable:
+## 📄 Example of a file with multiple URLs
+Create a text file like this:
+txt
+https://www.youtube.com/watch?v=abc123
+https://www.youtube.com/watch?v=def456
+Then run:
+alias_name
+And choose the file option when prompted.
 
-   ```bash
-   chmod +x script_yt-dlp_with_options.sh
+## 🔧 Customization
+You can edit the script to change default directories (~/Music, ~/Videos) or add other yt-dlp options if needed.
