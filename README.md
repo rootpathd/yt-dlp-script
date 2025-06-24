@@ -18,13 +18,13 @@ It supports:
 ---
 ## 📁 Installation
 ## 1. Clone the repository:
-   git clone https://github.com/yourusername/yt-dlp-script.git
-   cd yt-dlp-script
-   
+      git clone https://github.com/yourusername/yt-dlp-script.git
+      cd yt-dlp-script
+      
 ## 2. Move the script to your personal scripts folder:
-   mkdir -p ~/scripts
-   cp script_yt-dlp_with_options.sh ~/scripts/
-   chmod +x ~/scripts/script_yt-dlp_with_options.sh
+      mkdir -p ~/scripts
+      cp script_yt-dlp_with_options.sh ~/scripts/
+      chmod +x ~/scripts/script_yt-dlp_with_options.sh
    
 ## 3. (Optional) Add a permanent alias for easier use:
       ## Edit your ~/.zshrc
@@ -46,13 +46,13 @@ Then follow the prompts:
   - ✅ The script avoids duplicate downloads using --download-archive.
 
 ## 📄 Example of a file with multiple URLs
-Create a text file like this:
-txt
-https://www.youtube.com/watch?v=abc123
-https://www.youtube.com/watch?v=def456
-Then run:
-alias_name
-And choose the file option when prompted.
+      Create a text file like this:
+            txt
+            https://www.youtube.com/watch?v=abc123
+            https://www.youtube.com/watch?v=def456
+            Then run:
+            alias_name
+            And choose the file option when prompted.
 
 ## 🔧 Customization
 You can edit the script to change default directories (~/Music, ~/Videos) or add other yt-dlp options if needed.
