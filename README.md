@@ -44,6 +44,9 @@ Then follow the prompts:
   - 🎶 Audio files will be saved to ~/Music
   - 🎥 Videos will be saved to ~/Videos
   - ✅ The script avoids duplicate downloads using --download-archive.
+    ![imagen](https://github.com/user-attachments/assets/b5c27299-34e6-4ba0-8712-e11451d8e960)
+
+
 
 ## 📄 Example of a file with multiple URLs
       Create a text file like this:
