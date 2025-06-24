@@ -5,6 +5,7 @@
 This project provides a flexible Bash script for downloading audio or video content from YouTube and many other supported platforms using yt-dlp.
 It includes interactive prompts for format selection, download mode (single URL or batch from a file), and automatically organizes files into ~/Music or ~/Videos.
 The script also avoids duplicate downloads by keeping a history log and is designed for easy reuse and portability.
+
 It supports:
 
 - Downloading audio or video.
